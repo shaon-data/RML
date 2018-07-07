@@ -24,7 +24,7 @@ Packages: Math
 A step by step series of examples that tell you have to get a development env running
 
 To setup the project to your local machine simply type the command in git bash
-`git clone https://shaonmajumder@bitbucket.org/shaonmajumder/rml.git`
+`git clone https://github.com/ShaonMajumder/rml.git`
 
 And repeat
 
@@ -358,17 +358,17 @@ git config --global user.email "smazoomder@gmail.com"
 
 #### For adding the Remote Host
 ```
-git remote add bitbucket https://shaonmajumder@bitbucket.org/shaonmajumder/rml.git
+git remote add origin https://github.com/ShaonMajumder/rml.git
 ```
 #### For sending updates from client to remote host
 ```
 git add .
 git commit -m "This a commit"
-git push -u bitbucket master
+git push -u origin master
 ```
 #### For receving updates from remote host to client
 ```
-git pull bitbucket master
+git pull origin master
 ```
 
 ## Troubleshoots
